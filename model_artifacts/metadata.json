@@ -1,0 +1,55 @@
+{
+  "data": {
+    "initial_shape": [
+      275272,
+      37
+    ],
+    "after_filtering": [
+      267329,
+      37
+    ],
+    "train_shape": [
+      213863,
+      37
+    ],
+    "test_shape": [
+      53466,
+      37
+    ],
+    "rolling_train_cols": 53,
+    "numeric_features_used": 28,
+    "categorical_features_used": 4,
+    "normal_train_samples": 191160,
+    "heavy_train_samples": 22703
+  },
+  "classifier": {
+    "accuracy": 0.927,
+    "f1_heavy": 0.698,
+    "precision_heavy": 0.874,
+    "recall_heavy": 0.582,
+    "confusion_matrix": [
+      [
+        45058,
+        653
+      ],
+      [
+        3245,
+        4510
+      ]
+    ]
+  },
+  "regression": {
+    "RMSE": 38.226,
+    "MAE": 16.313,
+    "R2": 0.604,
+    "normal_segment": {
+      "MAE": 12.543,
+      "RMSE": 15.552
+    },
+    "heavy_segment": {
+      "MAE": 38.538,
+      "RMSE": 92.999,
+      "R2": 0.406
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "numeric_features": [
+    "TAXI_OUT",
+    "TAXI_IN",
+    "AIR_TIME",
+    "DISTANCE",
+    "CRS_ELAPSED_TIME",
+    "ELAPSED_TIME",
+    "ScheduledDepHour",
+    "DepartureHour",
+    "ArrivalHour",
+    "month",
+    "dayofweek",
+    "is_weekend",
+    "Route_rolling_mean_7d",
+    "Route_rolling_count_7d",
+    "Route_rolling_mean_14d",
+    "Route_rolling_count_14d",
+    "Airline_rolling_mean_7d",
+    "Airline_rolling_count_7d",
+    "Airline_rolling_mean_14d",
+    "Airline_rolling_count_14d",
+    "Airline_mean",
+    "ORIGIN_mean",
+    "DEST_mean",
+    "Route_mean",
+    "Airline_count",
+    "ORIGIN_count",
+    "DEST_count",
+    "Route_count"
+  ],
+  "categorical_features": [
+    "Airline",
+    "ORIGIN",
+    "DEST",
+    "Route"
+  ],
+  "heavy_threshold": 30.0,
+  "target": "ArrivalDelay"
+}
